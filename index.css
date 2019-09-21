@@ -1,4 +1,51 @@
 html {
   background-color: #111;
   color: #fff;
+  background-image: url('./assets/bg.png');
+
+  font-family: 'Fira Sans', sans-serif;
 }
+
+#main {
+  background-image: none;
+  background-color: #111;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  padding: 3%;
+  padding-top: 1%;
+  border-top: 3px pink solid;
+
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  font-style: oblique;
+}
+
+.browsehappy {
+  margin: 10px;
+  padding: 5px;
+  background-color: #222;
+  border-left: 4px red solid;
+  text-align: left;
+}
+
+.coolscreenshots {
+  margin: 10px;
+  border: 1px white solid;
+
+  width: 35%;
+  height: 35%;
+}
+
+.speen {
+  animation:spin 2s linear infinite;
+}
+
+.speen:active {
+  animation:spin 0.2s linear infinite;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
